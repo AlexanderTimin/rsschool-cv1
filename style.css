@@ -1,0 +1,75 @@
+
+.hr-line {
+    color: azure;
+    margin: 0 auto;
+    padding: 40px;
+    height: 6px;
+    border: none;
+    background: linear-gradient(45deg, #333, #ddd);
+    }
+
+.Junior {
+    text-align: center;
+}
+.Contacts {
+    text-align: center;
+    margin: 0 auto;
+	padding: 40px;
+	height: 0;
+	border: none;
+	border-bottom: 1px solid #333;
+}
+
+.Certificates {
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #333;
+
+}
+.education {
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #333;
+    
+} 
+.Mitso {
+    text-decoration: underline;
+}
+.Skills {
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+.Instruments {
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+.SoftSkills {
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+.Languages {
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #333;
+}
