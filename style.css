@@ -1,0 +1,113 @@
+
+.hr-line {
+    color: azure;
+    margin:0 auto;
+    padding: 40px;
+    height: 6px;
+    border: none;
+    background: linear-gradient(45deg, #333, #ddd);
+    }
+
+.Junior {
+    text-align: center;
+    margin:0 auto;
+}
+.Contacts {
+    text-align: center;
+    margin:0 auto;
+	padding: 40px;
+	height: 0;
+	border: none;
+	border-bottom: 1px solid #333;
+}
+.phone {
+    margin:0 auto;
+}
+.Certificates {
+    text-align: center;
+    margin:0 auto;
+    padding: 40px;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #333;
+    
+}
+.cert {
+    margin:0 auto;
+}
+.education {
+    text-align: center;
+    margin:0 auto;
+    padding: 40px;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #333;   
+} 
+.edu {
+    margin:0 auto;
+}
+.Mitso {
+    text-decoration: underline;
+    margin:0 auto;
+}
+.Skills {
+    text-align: center;
+    margin:0 auto;
+    padding: 40px;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+.Ski { 
+    margin:0 auto;
+}
+.Instruments {
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+.Instru {
+    margin:0 auto;
+}
+.SoftSkills {
+    text-align: center;
+    margin:0 auto;
+    padding: 40px;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+.soft {
+    margin:0 auto;
+}
+.Languages {
+    text-align: center;
+    margin:0 auto;
+    padding: 40px;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+.lang {
+    margin:0 auto;
+}
+.footer {
+    color: azure;
+    margin:0 auto;
+    padding: 40px;
+    height: 6px;
+    border: none;
+    background: linear-gradient(45deg, #333, #ddd);
+}
+.photo {
+    text-align: right;
+}
+.github {
+    text-align: right;
+}
+.year {
+    text-align: center;
+}
