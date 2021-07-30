@@ -1,0 +1,28 @@
+.container {
+margin: 0 auto;
+max-width: 1440px;
+width: calc(100% - 40px);
+}
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: black;
+}
+.vector {
+
+}      
+.louvre {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 48;
+    }
+.ulNav {
+display: flex;
+max-width: 720px;
+}
+.containerLogo {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+}
