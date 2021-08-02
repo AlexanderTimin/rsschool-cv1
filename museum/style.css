@@ -1,29 +1,44 @@
-
+/* forum-regular - latin */
+@font-face {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('/assets/fonts/forum-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/assets/fonts/forum-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+/* roboto-100 - latin */
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 100;
+    src: url('/assets/fonts/roboto-v27-latin-100.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('../fonts/roboto-v27-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/roboto-v27-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('/assets/fonts/roboto-v27-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/assets/fonts/roboto-v27-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/assets/fonts/roboto-v27-latin-100.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/roboto-v27-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/assets/fonts/roboto-v27-latin-100.svg#Roboto') format('svg'); /* Legacy iOS */
   }
-
-  @font-face {
+  /* roboto-300 - latin */
+@font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
+    src: url('/assets/fonts/roboto-v27-latin-300.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('../fonts/roboto-v27-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/roboto-v27-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''),
-         url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/roboto-v27-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+         url('/assets/fonts/roboto-v27-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/assets/fonts/roboto-v27-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/assets/fonts/roboto-v27-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/roboto-v27-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/assets/fonts/roboto-v27-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+  }  
+html{
+    box-sizing: border-box; 
+}  
+*, *::before, *::after{
+    box-sizing: inherit;
+}
 .container {
 margin: 0 auto;
 max-width: 1440px;
@@ -31,24 +46,31 @@ width: calc(100% - 40px);
 }
 .header {
 display: flex;
+flex-wrap: wrap;
+align-items: flex-end;
 justify-content: space-between;
-align-items: center;
 background-color: black;
 }
 .vector {
-    color: white;
+color: white;
 }      
 .louvre {
-    text-transform: uppercase;
-    color: #FFFFFF;
-    font-size: 48;
+ font-family: "Forum";  
+ text-transform: uppercase;
+ color: #FFFFFF;
+ font-size: 28px;                                                             
     }
 .ulNav {
+font-family: "Roboto"; 
+font-weight: 200;   
 display: flex;
-max-width: 720px;
+font-size: 22px;
+color: #FFFFFF;
+list-style: none;
 }
 .containerLogo {
+    padding: 40px;
     display: flex;
-    justify-content: flex-start;
-    padding-left: 40px;
+    justify-self: start;
 }
+                                                                                                                                                                      
